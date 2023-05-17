@@ -28,10 +28,14 @@
                         if(request.getParameter("b1")!=null){
                             String un=request.getParameter("t1");
                             String pass=request.getParameter("t2");
-                            if(un.equals("mishal") && pass.equals("alshahari")){
-                                response.sendRedirect("home.jsp");
+                            if(un.equals("mishal") && pass.equals("alshahari"))
+                            {
+                            %>
+                                <jsp:forward page="home.jsp"/>
+                            <%
                             }
-                            else{
+                            else
+                            {
                                 response.sendRedirect("error.jsp");
                             }
                         }
