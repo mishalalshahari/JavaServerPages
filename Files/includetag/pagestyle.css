@@ -1,0 +1,20 @@
+body{
+    background-color: maroon;
+}
+
+table{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
